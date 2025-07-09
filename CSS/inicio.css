@@ -1,6 +1,44 @@
+.efeitoback {
+    background-color: var(--fundo);
+}
+
 .inicio {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.limite {
     display: grid;
     grid-template-columns: 3.5fr 2fr 4.5fr;
     grid-template-rows: 1fr 4.5fr 1fr 3.5fr;
-    height: 1440px;
+    height: auto;
+}
+
+.titulo-inicio {
+    grid-area: 2 / 1 / 3 / 3;
+    height: 100%;
+    width: 100%;
+}
+
+.img-inicio {
+    grid-area: 1 / 3 / 4 / 4;
+    height: 100%;
+    width: 100%;
+}
+
+.img-inicio img {
+    height: 100%;
+    width: 100%;
+}
+
+.everyday-inicio {
+    grid-area: 4 / 1 / 5 / 2;
+    
+}
+
+.howcan-list {
+    grid-area: 4 / 2 / 5 / 4;
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }
