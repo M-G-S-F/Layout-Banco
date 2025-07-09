@@ -1,0 +1,6 @@
+.inicio {
+    display: grid;
+    grid-template-columns: 3.5fr 2fr 4.5fr;
+    grid-template-rows: 1fr 4.5fr 1fr 3.5fr;
+    height: 1440px;
+}

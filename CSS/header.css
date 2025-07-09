@@ -1,0 +1,60 @@
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        border-radius: 65px;
+        max-width: 1440px;
+        margin: 30px auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .logopay {
+        width: 8em;
+    }
+
+    nav {
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+    }
+
+    nav a {
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        margin: 0 10px;
+        width: 100px;
+        text-align: center;
+    }
+
+    nav a:hover {
+        background-color: var(--roxo1);
+        border-radius: 65px;
+        color: white;
+        transition: 1s ease;
+    }
+
+    .download a{
+        width: 15%;
+        padding: 15px 20px;
+        background-color: var(--roxo1);
+        border-radius: 65px;
+        font-size: 1.1em;
+        text-decoration: none;
+        color: white;
+    }
+
+    .download a:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        background-color: white;
+        color: var(--roxo1);
+    }
+
+    .download img{
+        width: 0.8em;
+        margin-right: 3px;
+    }
+
+    

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --titulo: #040240;
+    --roxo1: #9B72F2;
+    --roxo2: #BB94F2;
+    --fundo: #F0F0F2;
+}
