@@ -12,5 +12,14 @@
     --fundo: #F0F0F2;
     --sombra: 0 4px 8px rgba(0, 0, 0, 0.337);
     --transition1: 1s ease;
+    --distpg: 50px 0;
+
+}
+
+.auto {
+    max-width: 1200px;
+    margin: auto;
+    padding: var(--distpg);
+
 }
 

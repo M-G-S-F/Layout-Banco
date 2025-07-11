@@ -2,10 +2,7 @@
     background-color: var(--fundo);
 }
 
-.inicio {
-    max-width: 1200px;
-    margin: auto;
-}
+
 
 .limite {
     display: grid;
@@ -61,6 +58,12 @@
     background-color: var(--fundo);
     color: black;
     font-weight: bold;
+    transition: var(--transition1);
+}
+
+#learnmore-inicio:hover {
+    background-color: var(--roxo1);
+    color: white;
 }
 
 .img-inicio {
@@ -87,8 +90,7 @@
 }
 
 .h1-aways-inicio {
-    font-size: 1.2em;
-    margin-top: 5px;
+    font-size: 1.4em;
 }
 
 .every-botoes-inicio {
@@ -175,6 +177,17 @@
 }
 
 .readmore-inicio h1 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     display: inline-block;
+}
+
+.readmore-inicio a {
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--roxo1);
+}
+
+.readmore-inicio a:hover {
+    text-decoration: underline;
 }

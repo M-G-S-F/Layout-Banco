@@ -4,7 +4,7 @@
         align-items: center;
         padding: 25px 55px;
         border-radius: 65px;
-        max-width: 1440px;
+        max-width: 1200px;
         margin: 30px auto;
         box-shadow: var(--sombra);
         background-color: var(--fundo);
@@ -26,8 +26,9 @@
         text-decoration: none;
         color: black;
         margin: 0 10px;
-        width: 100px;
+        width: 80px;
         text-align: center;
+        display: inline-block;
     }
 
     nav a:hover {

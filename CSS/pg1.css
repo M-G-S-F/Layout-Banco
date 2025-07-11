@@ -1,0 +1,74 @@
+.pg1 {
+    display: grid;
+    grid-template-columns: 4.5fr 6.5fr;
+    grid-template-rows: 5.5fr 1fr;
+    gap: 40px;
+    height: 600px;
+}
+
+.img-principal-pg1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.img-principal-pg1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.avaliacoes-pg1 {
+    grid-area: 1 / 2 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.titulo-pg1 {
+    height: 30%;
+}
+
+.titulo-pg1 h1 {
+    font-size: 2.7em;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.caixas-ava {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cx-avaliacoes {
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+.about-company {
+    display: flex;
+    align-items: center;
+}
+
+.about-company h2 {
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.about-company img {
+    width: 18px;
+    height: 18px;
+}
+
+
+.dados-pg1 {
+    grid-area: 2 / 1 / 3 / 3;
+}
+
