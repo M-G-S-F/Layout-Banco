@@ -10,4 +10,7 @@
     --roxo1: #9B72F2;
     --roxo2: #BB94F2;
     --fundo: #F0F0F2;
+    --sombra: 0 4px 8px rgba(0, 0, 0, 0.337);
+    --transition1: 1s ease;
 }
+

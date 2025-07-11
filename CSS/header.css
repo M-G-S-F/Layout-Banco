@@ -2,11 +2,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 50px;
+        padding: 25px 55px;
         border-radius: 65px;
         max-width: 1440px;
         margin: 30px auto;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        box-shadow: var(--sombra);
         background-color: var(--fundo);
     }
     
@@ -34,7 +34,7 @@
         background-color: var(--roxo1);
         border-radius: 65px;
         color: white;
-        transition: 1s ease;
+        transition: var(--transition1);
     }
 
     .download a{
@@ -45,10 +45,11 @@
         font-size: 1.1em;
         text-decoration: none;
         color: white;
+        transition: var(--transition1);
     }
 
     .download a:hover {
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        box-shadow: var(--sombra);
         background-color: white;
         color: var(--roxo1);
     }
