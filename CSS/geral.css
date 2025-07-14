@@ -13,6 +13,7 @@
     --sombra: 0 4px 8px rgba(0, 0, 0, 0.337);
     --transition1: 1s ease;
     --distpg: 50px 0;
+    --radius: 25px;
 
 }
 
@@ -23,3 +24,6 @@
 
 }
 
+.fundo {
+    background-color: var(--fundo);
+}

@@ -84,7 +84,7 @@
     justify-content: space-between;
     height: 100%;
     background-color: var(--roxo1);
-    border-radius: 25px;
+    border-radius: var(--radius);
     padding: 20px;
     color: white;
 }
@@ -102,7 +102,7 @@
     text-decoration: none;
     padding: 10px 30px;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: var(--radius);
     display: inline-block;
     width: 47%;
     text-align: center;
@@ -138,7 +138,7 @@
     padding: 20px;
     background-color: var(--fundo);
     box-shadow: var(--sombra);
-    border-radius: 20px;
+    border-radius: var(--radius);
 }
 
 .lista {
@@ -181,13 +181,13 @@
     display: inline-block;
 }
 
-.readmore-inicio a {
+.readmore a {
     padding: 10px 0;
     text-decoration: none;
     font-weight: bold;
     color: var(--roxo1);
 }
 
-.readmore-inicio a:hover {
+.readmore a:hover {
     text-decoration: underline;
 }
