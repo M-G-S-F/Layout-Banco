@@ -5,7 +5,8 @@
         padding: 25px 55px;
         border-radius: 65px;
         max-width: 1200px;
-        margin: 30px auto;
+        margin-top: 0;
+        margin: auto;
         box-shadow: var(--sombra);
         background-color: var(--fundo);
     }
