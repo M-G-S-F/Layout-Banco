@@ -23,19 +23,22 @@
 }
 
 .titulo-pg3 h1 {
-    font-size:  2em;
+    font-size: 2.5em;
+    margin: 15px 0;
 }
 
 
 .lista-pg3 {
-    list-style-position: inside;
+    
+    display: inline-block;
 }
 
 .lista-pg3 ul {
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     height: 100%;
+    list-style-position: ;
 }
 
 .lista-pg3 li {
