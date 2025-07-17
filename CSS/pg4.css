@@ -1,0 +1,79 @@
+.pg4 {
+    max-width: ;
+}
+
+.titulo-pg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 35px auto;
+    color: var(--fundo);
+}
+
+.titulo-pg-4 h1 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.titulo-pg-4 p {
+    width: 80%;
+}
+
+.cards-pg4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-pg4 {
+    box-shadow: var(--sombra);
+    width: 23.5%;
+    height: 425px;
+    border-radius: var(--radius);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    background-color: var(--fundo);
+    background-position: center;
+    background-size: cover;
+}
+
+.cx-txt-pg4 {
+    padding: 20px 35px;
+    border-radius: 50px;
+    background-color: var(--fundo);
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.cx-txt-pg4 h1 {
+    font-size: 1.1em;
+}
+
+.cx-txt-pg4 h2 {
+    font-size: 0.9em;
+    color: var(--roxo1);
+}
+
+.card-pg4-1 {
+    background-image: url(../arquivos/maquina-card1-pg4.png);
+}
+
+.card-pg4-2 {
+    background-image: url(../arquivos//loans-card2-pg4.png);
+}
+
+.card-pg4-3 {
+    background-image: url(../arquivos/papel-card3-pg4.png);
+}
+
+.card-pg4-4 {
+    background-image: url(../arquivos/maquina-card1-pg4.png);
+}

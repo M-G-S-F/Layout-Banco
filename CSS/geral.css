@@ -7,8 +7,8 @@
 
 :root {
     --titulo: #040240;
-    --roxo1: #9B72F2;
-    --roxo2: #BB94F2;
+    --roxo1: #8d60f0;
+    --roxo2: #b181f5;
     --fundo: #F0F0F2;
     --sombra: 0 4px 8px rgba(0, 0, 0, 0.337);
     --transition1: 1s ease;
@@ -26,4 +26,8 @@
 
 .fundo {
     background-color: var(--fundo);
+}
+
+.fundo3 {
+    background-color: var(--roxo2);
 }

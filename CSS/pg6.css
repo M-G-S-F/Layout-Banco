@@ -1,0 +1,26 @@
+.pg6 {
+    background-color: var(--fundo);
+    border-radius: 30px;
+    margin: 50px auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+.visual-pg6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#avaliacao-estrelas {
+    width: 50px;
+    height: 25px;
+}
+
+.info-perfil-pg6 {
+    display: flex;
+    justify-content: space-between;
+}
