@@ -13,6 +13,7 @@
 .titulo-pg-2 h1 {
     font-size: 3em;
     margin: 25px 0;
+    color: var(--titulo);
 }
 
 .titulo-pg-2 p {

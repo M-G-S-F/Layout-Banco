@@ -1,9 +1,173 @@
 footer {
     background-color: var(--titulo);
     color: white;
+    
 }
 
 .join-now {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.txt-footer {
+    width: 50%;
+}
+
+.txt-footer h1{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.butoes-footer {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-join {
+    padding: 20px 45px;
+    
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-rx-footer {
+    color: white;
+    background-color: var(--roxo2);
+    transition: var(--transition1);
+}
+
+.botao-rx-footer:hover {
+    background-color: white;
+    color: var(--roxo2);
+}
+
+.botao-br-footer {
+    background-color: white;
+    color: var(--roxo2);
+    transition: var(--transition1);
+}
+
+.botao-br-footer.botao-br-footer:hover {
+    color: white;
+    background-color: var(--roxo2);
+    
+}
+
+#separacao {
+    margin: 30px 0;
+}
+
+.info-finais {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr) 2fr;
+    grid-row: auto;
+    column-gap: 50px;
+    height: 250px;
+}
+
+.about-company-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: var(--roxo2);
+    border-radius: 30px;
+}
+
+.txt-about-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 68%;
+}
+
+.txt-about-footer h1 {
+    font-size: 1.25em;
+}
+
+.redes-sociais-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+
+.redes-sociais-footer img {
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.redes-sociais-footer a {
+    display: flex;
+}
+
+.quick-links h2 {
+    height: 20%;
+}
+
+.quick-links ul{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+.download-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+}
+
+.botao-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 41%;
+    height: 45%;
+    text-align: center;
+}
+
+.botao-download a {
+    padding: 15px 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.botao-download img {
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+}
+
+#app-store {
+    background-color: var(--roxo2);
+}
+
+#play-store {
+    background-color: white;
 }

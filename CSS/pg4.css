@@ -1,6 +1,3 @@
-.pg4 {
-    max-width: ;
-}
 
 .titulo-pg-4 {
     display: flex;
@@ -15,6 +12,10 @@
 .titulo-pg-4 h1 {
     font-size: 2em;
     margin: 15px 0;
+}
+
+.about-company-pg4 h2{
+    color: white;
 }
 
 .titulo-pg-4 p {

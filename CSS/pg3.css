@@ -38,13 +38,16 @@
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
-    list-style-position: ;
+    list-style-position: inside;
 }
 
 .lista-pg3 li {
     font-size: 1.5em;
+    color: var(--titulo);
+    font-weight: bold;
 }
 
 .lista-pg3 p {
     font-size: medium;
+    margin-left: 35px;
 }

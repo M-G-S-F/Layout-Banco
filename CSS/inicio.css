@@ -1,5 +1,10 @@
 .efeitoback {
     background-color: var(--fundo);
+    background-image: url(../arquivos/efeitoback-inicio.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+    min-width: 1250px;
 }
 
 
@@ -22,10 +27,12 @@
 .h2-inicio {
     font-size: medium;
     margin: 30px 0;
+    color: var(--titulo);
 }
 
 .h1-inicio {
     font-size: 3.25em;
+    color: var(--titulo);
 }
 
 .titulo-botao-inicio {
