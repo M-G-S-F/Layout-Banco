@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     padding-top: 25px;
-    min-width: 1250px;
+    margin: auto;
 }
 
 
@@ -13,8 +13,8 @@
     display: grid;
     grid-template-columns: 3.5fr 2fr 4.5fr;
     grid-template-rows: 1fr 4.5fr 1fr 3.5fr;
-    height: auto;
     column-gap: 20px;
+    
 }
 
 .titulo-inicio {
@@ -197,4 +197,44 @@
 
 .readmore a:hover {
     text-decoration: underline;
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .limite {
+        min-width: 800px;
+        max-width: 1200px;
+        display: grid;
+        
+    }
+
+    .titulo-inicio {
+
+    }
+
+    
+
+    .h2-inicio {
+        font-size: 1em;
+    }
+
+    .h1-inicio {
+        font-size: 2em;
+    }
+
+    .titulo-botao-inicio {
+        height: 60;
+        
+    }
+
+    .lista-inicio {
+        display: none;
+    }
+
+    .img-inicio {
+        width: 200px;
+        height: 200px;
+    }
+
 }

@@ -1,8 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+body {
+    background-color: var(--fundo);
 }
 
 :root {
@@ -20,7 +25,7 @@
     max-width: 1250px;
     margin: auto;
     padding: var(--distpg);
-
+    min-width: 1125px;
 }
 
 .fundo {
@@ -29,4 +34,6 @@
 
 .fundo3 {
     background-color: var(--roxo2);
+    
 }
+

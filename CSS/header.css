@@ -5,7 +5,8 @@
         align-items: center;
         padding: 25px 55px;
         border-radius: 65px;
-        max-width: 1200px;
+        max-width: 1250px;
+        min-width: 1125px;
         margin: auto;
         box-shadow: var(--sombra);
         background-color: var(--fundo);
@@ -16,7 +17,6 @@
     }
 
     nav {
-        width: 50%;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
@@ -61,4 +61,25 @@
         margin-right: 3px;
     }
 
+
+
+    @media screen and (min-width: 800px) and (max-width: 1200px) {
+        .efeitoback {
+        }
+
+        header {
+            min-width: 800px;
+            max-width: 1200px;
+            padding: 15px 45px;
+        }
+
+        nav a {
+            padding: 10px;
+
+        }
+
+        .download {
+            display: none;
+        }
+    }
     

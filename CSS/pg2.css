@@ -26,12 +26,14 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 25px;
     margin-top: 30px;
+    
 }
 
 
 .cx-pg2 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap
 }
 
 .cx-pg2 img {
