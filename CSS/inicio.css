@@ -201,31 +201,44 @@
 
 
 
-@media screen and (min-width: 800px) and (max-width: 1200px) {
-    .limite {
-        min-width: 800px;
-        max-width: 1200px;
-        display: grid;
-        
-    }
-
-    .titulo-inicio {
-
-    }
+@media screen and (min-width: 800px) and (max-width: 1125px) {
 
     
 
+    .limite {
+        min-width: 800px;
+        max-width: 1200px;
+        grid-template-rows: 1fr 2.2fr 0.9fr;
+        grid-template-columns: 4fr 0.5fr 4fr;
+        display: grid;
+        width: auto;
+        height: auto;
+    }
+
+    .titulo-inicio {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
     .h2-inicio {
         font-size: 1em;
+        margin: 0;
     }
 
     .h1-inicio {
         font-size: 2em;
+        margin: 20px 0;
     }
 
     .titulo-botao-inicio {
-        height: 60;
-        
+        align-items: start;
+        width: 100%;
+    }
+
+    .titulo-botao-inicio a {
+        width: 43%;
+        text-align: center;
     }
 
     .lista-inicio {
@@ -233,8 +246,19 @@
     }
 
     .img-inicio {
-        width: 200px;
-        height: 200px;
+        height: 400px;
+        width: 100%;
     }
 
+    .everyday-inicio {
+        height: 250px;
+    }
+
+    .h1-aways-inicio {
+        font-size: 1.35em;
+    }
+
+    .readmore-inicio {
+        width: 100%;
+    }
 }

@@ -107,5 +107,69 @@
     margin: 15px auto;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1125px) {      
+    .pg1 {
+        grid-template-columns: 1fr 1.2fr;
+        grid-template-rows: 5.8fr 1fr;
+        gap: 25px;
+    }
 
+    .avaliacoes-pg1 {
+        justify-content: flex-start;
+    }
+
+    .titulo-pg1 {
+        height: auto;
+    }
+
+    .titulo-pg1 h1 {
+        font-size: 2em;
+        margin: 15px 0 20px 0;
+    }
+
+    .caixas-ava {
+        height: 80%;
+        justify-content: space-around;
+    }
+
+    .cx-avaliacoes {
+        height: auto;
+        align-items: flex-start;
+    }
+
+    .cx-avaliacoes img {
+       width: 100px;
+       height: 100px;
+
+    }
+
+    .text-cx-ava {
+        width: 73%;
+    }
+
+    .text-cx-ava h2 {
+        font-size: 1em;
+    }
+
+    .text-cx-ava p {
+        margin: 5px 0;
+        font-size: 0.9em;
+    }
+
+    .img-principal-pg1 img {
+        height: 100%;
+    }
+
+    .destaque-dados-pg1 {
+        font-size: 2em;
+    }
+
+    .descr-dados-pg1 {
+        margin: 10px auto;
+    }
+
+    .cx-avaliacoes-tested {
+        display: none;
+    }
+}
 

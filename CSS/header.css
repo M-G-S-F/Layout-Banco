@@ -5,7 +5,7 @@
         align-items: center;
         padding: 25px 55px;
         border-radius: 65px;
-        max-width: 1250px;
+        max-width: 1200px;
         min-width: 1125px;
         margin: auto;
         box-shadow: var(--sombra);
@@ -63,19 +63,27 @@
 
 
 
-    @media screen and (min-width: 800px) and (max-width: 1200px) {
+    @media screen and (min-width: 800px) and (max-width: 1125px) {
         .efeitoback {
         }
 
         header {
             min-width: 800px;
-            max-width: 1200px;
+            max-width: 1000px;
             padding: 15px 45px;
+        }
+
+        footer .auto {
+            
+        }
+
+        nav {
+            width: 70%;
         }
 
         nav a {
             padding: 10px;
-
+            
         }
 
         .download {

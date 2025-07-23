@@ -1,6 +1,4 @@
 
-
-
 .titulo-pg-4 {
     display: flex;
     flex-direction: column;
@@ -25,13 +23,15 @@
 }
 
 .cards-pg4 {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 1fr;
+    gap: 10px;
 }
 
 .card-pg4 {
     box-shadow: var(--sombra);
-    width: 23.5%;
+    width: 300px;
     height: 425px;
     border-radius: var(--radius);
     padding: 20px 20px;
@@ -79,4 +79,21 @@
 
 .card-pg4-4 {
     background-image: url(../arquivos/maquina-card1-pg4.png);
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1125px) {
+    .titulo-pg-4 h1 {
+        font-size: 2.5em;
+    }
+
+    .cards-pg4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .card-pg4 {
+        width: 100%;
+    }
 }

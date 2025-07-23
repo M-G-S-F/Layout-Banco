@@ -1,7 +1,6 @@
 footer {
     background-color: var(--titulo);
     color: white;
-    
 }
 
 .join-now {
@@ -170,4 +169,46 @@ footer {
 
 #play-store {
     background-color: white;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1125px) {
+    footer {
+        height: auto;
+    }
+
+    .join-now {
+        align-items: end;
+    }
+
+    .txt-footer {
+        width: 65%;
+    }
+
+    .info-finais {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .butoes-footer {
+        flex-direction: column;width: 30%;
+        height: 120px;
+    }
+
+    .botao-join {
+        text-align: center;
+        padding: 17px 38px;
+    }
+
+    .download-app {
+        display: none;
+    } 
+
+    .redes-sociais-footer {
+        width: 65%;
+    }
+
+    .redes-sociais-footer img {
+        width: 40px;
+        height: 40px;
+
+    }
 }
