@@ -210,7 +210,7 @@
         height: 75px;
     }
 
-    .cx-avaliacoes-tested {
+    .cx-avaliacoes-tested, .cx-avaliacoes-tested-cell {
         display: none;
     }
 

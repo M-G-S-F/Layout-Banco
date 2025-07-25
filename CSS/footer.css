@@ -164,6 +164,7 @@ footer {
 
 #app-store {
     background-color: var(--roxo2);
+    color: white;
 }
 
 #play-store {
@@ -240,14 +241,23 @@ footer {
     }
 
     .info-finais {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 750px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 15px;
+        height: auto;
+    }
+
+    .about-company-footer {
+        grid-area: 1 / 1 / 2 / 3;
+        height: 200px;
     }
 
     .quick-links{
-        height: 40%;
+        height: 175px;
+    }
+
+    .quick-links ul {
+        height: 70%;
     }
 
     .quick-links h2 {
@@ -255,14 +265,26 @@ footer {
         display: inline-block;
     }
 
+    .download-app {
+        grid-area: 3 / 1 / 4 / 3;
+        height: 175px;
+        
+    }
+
+    .txt-download {
+        height: 56%;
+
+    }
+
     .botao-download {
         flex-direction: row;
         width: auto;
         height: auto;
-        align-items: center;
+        align-items: r;
     }
 
     .botao-download a {
-        display: inline-block;
+        display: flex;
+        align-items: center;
     }
 }

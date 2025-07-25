@@ -20,6 +20,7 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
+        align-items: center;
     }
 
     nav a {
@@ -27,7 +28,7 @@
         text-decoration: none;
         color: black;
         margin: 0 10px;
-        width: 80px;
+        width: 60px;
         text-align: center;
         display: inline-block;
     }
@@ -59,6 +60,15 @@
     .download img{
         width: 0.8em;
         margin-right: 3px;
+    }
+
+    #menu-header {
+        display: none;
+    }
+
+    #info-header {
+        display: flex;
+        align-items: center;
     }
 
 
@@ -120,6 +130,7 @@
         }
 
         #menu-header {
+            display: inline-block;
             width: 30px;
         }
     }
