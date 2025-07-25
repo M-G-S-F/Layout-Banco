@@ -26,7 +26,6 @@ footer {
 
 .botao-join {
     padding: 20px 45px;
-    
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
@@ -210,5 +209,60 @@ footer {
         width: 40px;
         height: 40px;
 
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+    footer {
+        
+    }
+
+    .join-now {
+        display: flex;
+        flex-direction: column;
+        height: 225px;
+    }
+
+    .txt-footer {
+        width: auto;
+        text-align: center;
+    }
+    .txt-footer h1 {
+        font-size: 1.5em;
+    }
+
+    .butoes-footer {
+        width: 100%;
+    }
+
+    .botao-join {
+        padding: 15px 30px;
+    }
+
+    .info-finais {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 750px;
+    }
+
+    .quick-links{
+        height: 40%;
+    }
+
+    .quick-links h2 {
+        font-size: 1em;
+        display: inline-block;
+    }
+
+    .botao-download {
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .botao-download a {
+        display: inline-block;
     }
 }

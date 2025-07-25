@@ -95,4 +95,44 @@
         font-size: 1.5em;
     }
 }
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+    .pg3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-pg3 {
+        order: 1;
+    }
+
+    .titulo-pg3 h1 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .img-principal-pg3 {
+        order: 2;
+        margin: auto;
+    }
+
+    .img-principal-pg3 img {
+        width: 300px;
+        height: 390px;
+
+    }
+
+    .lista-pg3 {
+        order: 3;
+        height: 400px;
+    }
+
+    .lista-pg3 li {
+        font-size: 1em;
+    }
+
+    .lista-pg3 p {
+        font-size: 0.8em;
+        margin-left: 21px;
+    }
 }

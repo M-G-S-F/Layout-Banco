@@ -26,7 +26,6 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 25px;
     margin-top: 30px;
-    
 }
 
 
@@ -116,5 +115,55 @@
 
 }
 
+@media screen and (min-width: 375px) and (max-width: 800px) {
+    .titulo-pg-2 {
+        width: 95%;
+    }
+
+    .titulo-pg-2 h1 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .titulo-pg-2 p {
+        width: 90%;
+    }
+
+    .cards-pg2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .cx-txt-pg2 {
+        height: auto;
+        padding: 17px;
+        
+    }
+    
+    .cx-txt-pg2 h1 {
+        font-size: 1em;
+
+    }
+
+    .cx-pg2 img {
+        width: 35px;
+        height: 35px;
+        top: 20px;
+        left: 25px;
+        position: relative;
+    }
+
+    .learnmore-pg2 a{
+        padding: 7px 25px;
+    }
 
 
+    .readmore a{
+        font-size: 0.9em;
+    }
+
+    .c3-pg2, .c5-pg2, .c6-pg2 {
+        display: none;
+    }
+
+}

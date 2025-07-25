@@ -78,7 +78,7 @@
 }
 
 .card-pg4-4 {
-    background-image: url(../arquivos/maquina-card1-pg4.png);
+    background-image: url(../arquivos/Troca\ de\ Dinheiro\ no\ Caixa\ Transparente.png);
 }
 
 
@@ -95,5 +95,34 @@
 
     .card-pg4 {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+    .titulo-pg-4 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .titulo-pg-4 h1 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .titulo-pg-4 p {
+        width: auto;
+    }
+
+    .cards-pg4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-pg4 {
+        margin: auto;
+    }
+
+    .card-pg4-1, .card-pg4-2 {
+        display: none;
     }
 }

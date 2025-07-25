@@ -209,7 +209,7 @@
         min-width: 800px;
         max-width: 1200px;
         grid-template-rows: 1fr 2.2fr 0.9fr;
-        grid-template-columns: 4fr 0.5fr 4fr;
+        grid-template-columns: 4fr 0.2fr 4fr;
         display: grid;
         width: auto;
         height: auto;
@@ -260,5 +260,90 @@
 
     .readmore-inicio {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 800px) {
+    .efeitoback {
+        padding: 0;
+    }
+    
+    .limite {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .limite p {
+         
+    }
+
+    .titulo-inicio {
+        height: 115px;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    .h2-inicio {
+        font-size: 0.8em;
+        margin: 0;
+    }
+
+    .h1-inicio {
+        font-size: 1.5em;
+    }
+
+    .img-inicio {
+        display: flex;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .img-inicio img {
+        width: 275px;
+        height: auto;
+    }
+
+    .titulo-botao-inicio {
+        display: none;
+        width: 100%;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .everyday-inicio {
+        height: 180px;
+        padding: 15px;
+    }
+
+    .h1-aways-inicio {
+        font-size: 1em;
+    }
+
+
+    .every-botoes-inicio a{
+        display: inline-block;
+        width: 43%;
+        padding: 7px;
+    }
+
+    .howcan-list {
+        flex-direction: column-reverse;
+        padding: 15px;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .howcan-list h1{
+        font-size: 1em;
+    }
+
+
+    .readmore-inicio {
+        width: auto;
+    }
+
+    .lista-inicio {
+        display: none;
     }
 }
